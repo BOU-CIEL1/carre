@@ -21,3 +21,18 @@ void CCarre::Afficher()
 {
 	cout << sx << " pixels de longueur " << sy << " pixels de largeur " << cote << " pixels de cote " << endl;
 }
+
+int CCarre::Getsx()
+{
+	return sx;
+}
+
+int CCarre::Getsy()
+{
+	return sy;
+}
+
+int CCarre::GetCote()
+{
+	return cote;
+}

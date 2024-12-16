@@ -25,4 +25,19 @@ void Setcote(int cote1);
 //Paramètres en sortie: Aucun
 //Valeur de retour: Aucun
 void Afficher();
+//Fonction: Retourne sx
+//Paramètres en entrée: Aucun
+//Paramètres en sortie: Aucun
+//Valeur de retour: sx
+int Getsx();
+//Fonction: Retourne sy
+//Paramètres en entrée: Aucun
+//Paramètres en sortie: Aucun
+//Valeur de retour: sy
+int Getsy();
+//Fonction: Retourne la cote
+//Paramètres en entrée: Aucun
+//Paramètres en sortie: Aucun
+//Valeur de retour: cote
+int GetCote();
 };
