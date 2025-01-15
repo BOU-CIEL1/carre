@@ -1,7 +1,16 @@
 #pragma once
+/// @file carre.h
+/// @brief Programme principal du TP: un carré
+/// @details Ce programme utilise des fonctions
+/// @author Jalil Bougoffa
+/// @version 0.1 - Visual Studio 2019
+/// @date 21/12/2024
+
+/// @brief Classe du carré
 class CCarre
 {
-	int sx;
+    /// @brief variables pour visualiser les axes x et y et le coté
+    int sx;
 	int sy;
 	int cote;
 public:
